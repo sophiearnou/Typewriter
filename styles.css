@@ -91,7 +91,7 @@ a {
 }
 
 
-/*========== SECTION HOME ==========*/
+/*========== MAIN ==========*/
 
 main {
     background: var(--background-color);
@@ -182,9 +182,6 @@ picture img {
 }
 
 @media only screen and (min-width:800px) {
-    main {
-        background: url(./assets/images/test-type.JPG)cover;
-    }
     .topbar__toggle {
         display: none;
     }
@@ -224,6 +221,7 @@ picture img {
     ul li a:hover {
         font-weight: bold;
     }
+    /******* MAIN *******/
     main {
         background: var(--background-color);
         display: flex;
