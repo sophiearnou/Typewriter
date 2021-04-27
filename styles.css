@@ -58,11 +58,6 @@ a {
     position: relative;
 }
 
-
-/* .logo {
-    background: yellow;
-} */
-
 .topbar__toggle {
     position: absolute;
     top: 0;
@@ -180,6 +175,9 @@ picture img {
 .popup {
     display: none;
 }
+
+
+/********* MEDIA QUERY ******/
 
 @media only screen and (min-width:800px) {
     .topbar__toggle {
